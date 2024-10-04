@@ -1,0 +1,29 @@
+{
+    "server":{
+        "port":9321
+    },
+    "app":{
+        "prefix":"/api/jcx-sounds"
+    },
+    "paths":{
+        "wavPath":"sounds/wav"
+    },
+    "credentials":{
+        "url":"https://demo-api.models.ai4bharat.org/inference/tts",
+        "gender":"female"
+    },
+    "headers":{
+        "accept":"*/*",
+        "accept-language":"en-US,en;q=0.9",
+        "content-type":"application/json",
+        "origin":"https://models.ai4bharat.org",
+        "priority":"u=1, i",
+        "referer":"https://models.ai4bharat.org/",
+        "sec-ch-ua-mobile":"?0",
+        "sec-ch-ua-platform":"Linux",
+        "sec-fetch-dest":"empty",
+        "sec-fetch-mode":"cors",
+        "sec-fetch-site":"same-site",
+        "user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+    }
+}
